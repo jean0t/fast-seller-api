@@ -78,7 +78,6 @@ Designed to power a commercial platform with secure authentication, customer and
 ## 🚧 Installation
 
 ```bash 
-```
 ### Clone the repository
 git clone https://github.com/your-user/fast-seller-api.git
 cd fast-seller-api
@@ -92,7 +91,6 @@ pip install -r requirements.txt
 
 ### Run the server
 python app/main.python 
-```
 ```
 
 ## 📋 License

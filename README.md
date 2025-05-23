@@ -77,7 +77,6 @@ Designed to power a commercial platform with secure authentication, customer and
 
 ## 🚧 Installation
 
-```bash
 ### Clone the repository
 ```
 ```

@@ -77,38 +77,25 @@ Designed to power a commercial platform with secure authentication, customer and
 
 ## 🚧 Installation
 
+```bash 
+```
 ### Clone the repository
-```
-```
 git clone https://github.com/your-user/fast-seller-api.git
 cd fast-seller-api
-```
-```
 
 ### Create virtual environment
-``` 
-```
 python -m venv venv
 source venv/bin/activate # On Windows use `venv\Scripts\activate`
-``` 
-```
 
 ### Install dependencies
-``` 
-```
 pip install -r requirements.txt
-```
-```
 
 ### Run the server
-```
-```
 python app/main.python 
 ```
-
-
 ```
-##📋 License
+
+## 📋 License
 
 MIT-3 © 2025 jean0t  
 

@@ -3,12 +3,12 @@ from fastapi import APIRouter
 router = APIRouter()
 
 
-@router.get("/")
+@router.get("")
 async def list_products():
     pass
 
 
-@router.post("/")
+@router.post("")
 async def create_product():
     pass
 

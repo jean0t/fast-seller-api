@@ -1,28 +1,29 @@
 from fastapi import APIRouter
+from schemas.schemas import OrderResponse, SuccessResponse
 
 router = APIRouter()
 
 
-@router.get("")
+@router.get("", response_model=list[OrderResponse])
 async def list_orders():
     pass
 
 
-@router.post("")
+@router.post("", response_model=SuccessResponse)
 async def create_order():
     pass
 
 
-@router.get("/{id}")
+@router.get("/{id}", response_model=OrderResponse)
 async def list_order(id: int):
     pass
 
 
-@router.put("/{id}")
+@router.put("/{id}", response_model=SuccessResponse)
 async def update_order(id: int):
     pass
 
 
-@router.delete("/{id}")
+@router.delete("/{id}", response_model=SuccessResponse)
 async def delete_order(id: int):
     pass

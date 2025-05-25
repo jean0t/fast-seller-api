@@ -13,7 +13,7 @@ class Client(BaseModel):
 
 
 class ClientRegister(BaseModel):
-    cpf: str
+    cpf: str = Field(pattern=r'^\d{11}$')
     name: str
     password: SecretStr
     email: EmailStr
